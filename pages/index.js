@@ -4,9 +4,8 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Head from 'next/head'
 
 const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Marketplace', href: '#' },
+  { name: 'Blog', href: '#' },
+  { name: 'Careers', href: '#' },
   { name: 'Company', href: '#' },
 ]
 
@@ -39,8 +38,8 @@ export default function Home(){
         `}
       </Script> */}
     <Head>
-      <title>Jacobi Robotics</title>
-      <meta name="description" content="Jacobi Robotics" />
+      <title>Enkrypt AI</title>
+      <meta name="description" content="Enkrypt AI" />
       <link rel="icon" href="/favicon.ico" />
 
 
@@ -49,7 +48,7 @@ export default function Home(){
       <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
       
 
-      <meta property="og:title" content="Jacobi Robotics"/>
+      <meta property="og:title" content="Enkrypt AI"/>
       <meta property="og:description" content=""/>
       
       {/* This metatag should link to a screen shot of the page. Search og: tags to read about how to do this. */}
@@ -99,7 +98,7 @@ export  function HomeContent() {
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img className="h-8" src="logo.svg" alt="" />
+              <img className="h-8" src="enkrypt_logo.svg" alt="" />
             </a>
           </div>
           <div className="flex lg:hidden">
@@ -172,12 +171,10 @@ export  function HomeContent() {
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl text-center">
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-7xl">
-                 Motion Planning for Robot Arms
+                Monetize your Models
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-              A motion planning library for computing 
-time-optimized, jerk-limited, collision-free
-robot arm trajectories in milliseconds
+               Safely deploy your models to your customer's cloud and track usage.
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
@@ -193,13 +190,7 @@ robot arm trajectories in milliseconds
             </div>
             <div className="mt-16 flow-root sm:mt-24">
               <div className="-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4">
-                <img
-                  src="hero_image.gif"
-                  alt="App screenshot"
-                  width={2432}
-                  height={1442}
-                  className="rounded-md shadow-2xl ring-1 ring-gray-900/10"
-                />
+                
               </div>
             </div>
           </div>
