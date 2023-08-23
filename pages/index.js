@@ -174,7 +174,7 @@ export  function HomeContent() {
                 Monetize your Models
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-               Safely deploy your models to your customer's cloud and track usage.
+               Safely deploy your models to your customer&apos;s cloud and track usage.
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
