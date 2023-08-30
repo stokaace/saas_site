@@ -1,6 +1,8 @@
 import Navigation from '../components/navigation'
 import Head from 'next/head'
 
+import Link from 'next/link'
+
 export default function Model() {
   
 
@@ -139,14 +141,14 @@ export function Table() {
                   >
                     Revoke<span className="sr-only">, {plan.name}</span>
                   </button>
-                  <a
+                  <Link
                     type="button"
                     href="/user"
                     className="ml-4 inline-flex items-center rounded-md bg-white px-2.5 py-1.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 disabled:cursor-not-allowed disabled:opacity-30 disabled:hover:bg-white"
                     disabled={plan.isCurrent}
                   >
                     &nbsp;Logs&nbsp;<span className="sr-only">, {plan.name}</span>
-                  </a>
+                  </Link>
                   {planIdx !== 0 ? <div className="absolute -top-px left-0 right-6 h-px bg-gray-200" /> : null}
                 </td>
               </tr>

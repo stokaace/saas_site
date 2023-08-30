@@ -2,6 +2,9 @@ import Navigation from '../components/navigation'
 import { ChevronRightIcon } from '@heroicons/react/20/solid'
 
 import Head from 'next/head'
+
+import Link from 'next/link'
+
 export default function Org() {
   
 
