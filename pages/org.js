@@ -11,7 +11,7 @@ export default function Org() {
   return (
     <>
       <Head>
-        <title>Org</title>
+        <title>Enkrypt AI - Home</title>
       </Head>
       <Navigation>
         <div className='pb-8'>Models</div>

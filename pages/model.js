@@ -9,7 +9,7 @@ export default function Model() {
   return (
     <>
       <Head>
-        <title>Model</title>
+        <title>Enkrypt AI - Model</title>
       </Head>
       <Navigation>
         <div className='pb-8'>Model &gt; TPG4</div>

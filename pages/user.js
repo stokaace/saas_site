@@ -7,7 +7,7 @@ export default function User() {
   return (
     <>
       <Head>
-        <title>User</title>
+        <title>Enkrypt AI - Log</title>
       </Head>
       <Navigation>
         <div className='pb-8'>Model &gt; TPG4 &gt; Michael Landon</div>

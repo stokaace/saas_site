@@ -1,5 +1,5 @@
-import Navigation from '../components/navigation'
 
+import Head from 'next/head'
 
 export default function Login() {
   return (
@@ -12,6 +12,9 @@ export default function Login() {
         <body class="h-full">
         ```
       */}
+      <Head>
+        <title>Enkrypt AI - Login</title>
+      </Head>
       <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
         <div className="sm:mx-auto sm:w-full sm:max-w-sm">
           <img
