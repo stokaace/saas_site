@@ -1,5 +1,6 @@
 
 import Head from 'next/head'
+import Link from 'next/link'
 
 export default function Login() {
   return (
@@ -69,13 +70,13 @@ export default function Login() {
             </div>
 
             <div>
-              <button
+              <Link
                 type="submit"
                 href="/org"
                 className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 Sign in
-              </button>
+              </Link>
             </div>
           </form>
 
